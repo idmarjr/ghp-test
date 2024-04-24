@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./ColorUpdater.BY0567EU.js","./2.oFEB0yeF.js","./index.DVx-03h4.js","./index.CLjUf3Ti.js","./preload-helper.D6kgxu3v.js","./messages.BLPPyppd.js","./runtime.CSTc6qgx.js","../assets/2.QBwkNtc4.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as e}from"./preload-helper.D6kgxu3v.js";async function d(r,t=!0){await r.addParticleUpdater("color",async o=>{const{ColorUpdater:a}=await e(()=>import("./ColorUpdater.BY0567EU.js"),__vite__mapDeps([0,1,2,3,4,5,6,7]),import.meta.url);return new a(o)},t)}export{d as loadColorUpdater};
