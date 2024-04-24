@@ -13,7 +13,7 @@ const config = {
 			$paraglide: "./src/paraglide",
 		},
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/brmodelo-site' : '',
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
